@@ -1,0 +1,5 @@
+package com.forkapp.orderservice.controller;
+
+public class OrderController {
+
+}

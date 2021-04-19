@@ -1,0 +1,13 @@
+package com.forkapp.forkappserver;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ForkappServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ForkappServerApplication.class, args);
+	}
+
+}

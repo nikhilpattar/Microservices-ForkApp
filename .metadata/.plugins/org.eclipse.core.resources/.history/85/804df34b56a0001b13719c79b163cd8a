@@ -1,0 +1,5 @@
+package com.forkapp.orderservice.model;
+
+public class Laptop {
+
+}
