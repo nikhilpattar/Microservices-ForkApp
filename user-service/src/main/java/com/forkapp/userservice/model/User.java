@@ -8,11 +8,11 @@ public class User
 {
 	@Id
 	private String uId;
-	private String uFirstName;
-	private String uSecondName;
-	private String uEmail;
-	private String uUsername;
-	private String uPassword;
+	private String firstName;
+	private String secondName;
+	private String email;
+	private String username;
+	private String password;
 	
 	public User() {
 		
@@ -26,43 +26,43 @@ public class User
 		this.uId = uId;
 	}
 
-	public String getuFirstName() {
-		return uFirstName;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setuFirstName(String uFirstName) {
-		this.uFirstName = uFirstName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-	public String getuSecondName() {
-		return uSecondName;
+	public String getSecondName() {
+		return secondName;
 	}
 
-	public void setuSecondName(String uSecondName) {
-		this.uSecondName = uSecondName;
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
 	}
 
-	public String getuEmail() {
-		return uEmail;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setuEmail(String uEmail) {
-		this.uEmail = uEmail;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
-	public String getuUsername() {
-		return uUsername;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setuUsername(String uUsername) {
-		this.uUsername = uUsername;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
-	public String getuPassword() {
-		return uPassword;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setuPassword(String uPassword) {
-		this.uPassword = uPassword;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 }	

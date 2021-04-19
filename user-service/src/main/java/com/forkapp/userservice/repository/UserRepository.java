@@ -8,5 +8,6 @@ import com.forkapp.userservice.model.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String>
 {
-	User findByuUsername(String username);
+	User findByUsername(String username);
+	User findByPassword(String password);
 }

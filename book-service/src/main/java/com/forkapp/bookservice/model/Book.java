@@ -7,53 +7,44 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Book 
 {
 	@Id
-	private String bId;
-	private String bName;
-	private String bImage;
-	private int bPrice;
-	private String bDescription;
+	private String id;
+	private String name;
+	private int price;
+	private String description;
 	
 	public Book() {
 		
 	}
 
-	public String getbId() {
-		return bId;
+	public String getId() {
+		return id;
 	}
 
-	public void setbId(String bId) {
-		this.bId = bId;
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public String getbName() {
-		return bName;
+	public String getName() {
+		return name;
 	}
 
-	public void setbName(String bName) {
-		this.bName = bName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getbImage() {
-		return bImage;
+	public int getPrice() {
+		return price;
 	}
 
-	public void setbImage(String bImage) {
-		this.bImage = bImage;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 
-	public int getbPrice() {
-		return bPrice;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setbPrice(int bPrice) {
-		this.bPrice = bPrice;
-	}
-
-	public String getbDescription() {
-		return bDescription;
-	}
-
-	public void setbDescription(String bDescription) {
-		this.bDescription = bDescription;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 }

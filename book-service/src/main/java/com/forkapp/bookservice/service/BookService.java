@@ -31,6 +31,6 @@ public class BookService
 	
 	public String addBookToDb(Book book) {
 		bookRepository.save(book);
-		return "Book with Id: "+book.getbId()+" added successfully";
+		return "Book with Id: "+book.getId()+" added successfully";
 	}
 }
