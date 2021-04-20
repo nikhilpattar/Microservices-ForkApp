@@ -31,6 +31,6 @@ public class LaptopService
 	
 	public String addLaptopToDb(Laptop laptop) {
 		laptopRepository.save(laptop);
-		return "Laptop with Id: "+laptop.getlId()+" addedd successfully";
+		return "Laptop with Id: "+laptop.getId()+" addedd successfully";
 	}
 }
